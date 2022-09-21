@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class="container">
+            <div>
+                <h3 class="headerStyle">HOME</h3>
+                <h1 id="number1" class="numberStyle">0</h1>
+
+                <button onclick="home1()" class="buttonNumber">+1</button>
+                <button onclick="home2()" class="buttonNumber">+2</button>
+                <button onclick="home3()" class="buttonNumber">+3</button>
+
+                <h3 id="foul1" class="headerStyle2">FOUL</h3>
+                <h3 id="foulnumber1" class="numberStyle2">0</h3>
+                <button onclick="foul1()" class="buttonNumber2">+1</button>
+                <div>
+                    
+                </div>
+            </div>
+            <div class="buttonList">
+                <div>
+                    <button onclick="start()" class="buttonNumber3 buttonList">START THE GAME</button>
+                </div>
+
+                <div>
+                    <button onclick="check()" class="buttonNumber3 buttonList">CHECK</button>
+                </div>
+                <div>
+                    <button onclick="newgame()" class="buttonNumber3 buttonList">NEW GAME</button>
+                </div>
+                <div>
+                    <p id="updateParagraph" class="paragraphStyle buttonList">CLICK ON THE BUTTON TO START THE GAME</p>
+                </div>
+                <div>
+                    <p id="updateTimer" class="timerStyle"></p>
+                </div>
+            </div>
+            <div>
+                <h3 class="headerStyle">GUEST</h3>
+                <h1 id="number2" class="numberStyle">0</h1>
+
+                <button onclick="away1()" class="buttonNumber">+1</button>
+                <button onclick="away2()" class="buttonNumber">+2</button>
+                <button onclick="away3()" class="buttonNumber">+3</button>
+
+                <h3 id="foul2" class="headerStyle2">FOUL</h3>
+                <h3 id="foulnumber2" class="numberStyle2">0</h3>
+                <button onclick="foul2()" class="buttonNumber2">+1</button>
+                <audio id="gamehorn">><source src="audio/basketball-game-horn-sound-effect.mp3" type="audio/mpeg"></audio>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>

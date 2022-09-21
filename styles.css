@@ -1,0 +1,176 @@
+@font-face {
+    font-family: CursedTime;
+    src: url("font/Cursed_Timer_ULiL/CursedTimerULiL.ttf");
+}
+
+body {
+    margin: 0;
+    text-align: center;
+
+    background-image: url("image/basketball.jpg");
+    background-size: cover;
+}
+
+.container {
+    display: flex;
+    justify-content:space-around;
+    
+    background: #1B244A;
+}
+
+
+.headerStyle {
+    font-family: CursedTime;
+    color: #72d864;
+    font-size: 40px;
+
+    margin-bottom: 0px;
+}
+
+.numberStyle, .numberYes, .numberNo {
+    font-family: CursedTime;
+    font-size: 90px;
+    color: #4ff9eb;
+
+    padding-top: 20px;
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    background: black;
+    border-radius: 5px;
+}
+
+.buttonNumber {
+
+    font-family: CursedTime;
+    font-size: 20px;
+    color: #9AABD8;
+    background: #1B244A;
+    border: #9AABD8 solid;
+    border-radius: 5px;
+
+    text-align: center;
+
+    padding: 10px 8px;
+
+    margin-top: 0;
+}
+
+.headerStyle2 {
+    font-family: CursedTime;
+    color: #ff2a2a;
+    font-size: 20px;
+    text-shadow: 0 0 10px rgb(70, 51, 51);
+
+    margin-bottom: 0px;
+}
+
+.numberStyle2 {
+    font-family: CursedTime;
+    font-size: 50px;
+    color: #F94F6D;
+
+    padding-top: 10px;
+
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    background: black;
+    border-radius: 5px;
+}
+
+.buttonNumber2 {
+
+    font-family: CursedTime;
+    font-size: 15px;
+    color: #9AABD8;
+    background: #1B244A;
+    border: #9AABD8 solid;
+    border-radius: 5px;
+
+    text-align: center;
+
+    padding: 10px 8px;
+
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+
+.buttonNumber3 {
+
+    font-family: CursedTime;
+    font-size: 25px;
+    color: #9AABD8;
+    background: #521a26;
+    border: #9AABD8 solid;
+    border-radius: 5px;
+
+    text-align: center;
+
+    padding: 10px 8px;
+
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+
+.buttonList {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.paragraphStyle {
+    font-family: CursedTime;
+    color: #4ff9eb;
+    font-size: 50px;
+    
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.numberYes {
+    font-family: CursedTime;
+    font-size: 90px;
+    color: #17a71f;
+
+    padding-top: 20px;
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    background: black;
+    border-radius: 5px;
+}
+
+.numberNo {
+    font-family: CursedTime;
+    font-size: 90px;
+    color: #bd1b1b;
+
+    padding-top: 20px;
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    background: black;
+    border-radius: 5px;
+}
+
+.timerStyle {
+    margin: 30px 50px;
+
+    opacity: 70%;
+
+    padding: 15px 10px;
+    border-radius: 5px;
+    background: #1B244A;
+
+    font-family: CursedTime;
+    color: #56df3a;
+    font-size: 60px;
+
+    margin-bottom: 0px;
+}
